@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/e943a20ad4.css">
+    <link rel="stylesheet" href="stylesheet/styles.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <title>Dribbly Clone</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+             
+              <div class="menu">
+                <a href="#" class="nav-branding">dribbbly</a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Shots</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Designers</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Teams</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Community</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Hirings</a>
+              </li>
+                           
+          </ul>
+          
+          
+          
+        </div>
+     
+        <div class="menu right-menu">
+          <ul class="nav-menu right">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Sign up</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <div class="input-wrapper">
+              <input type="text" name="search" id="search" placeholder="Search">
+              <label for="search" class="fa fa-search input-icon"></label>
+            </div>
+          </li>
+          </ul>
+        </div>
+        <div class=" hide-on-lg">
+          <a href="#" class="nav-link">Sign in</a>
+        </div>  
+        </nav>
+      
+      </header>
+
+    <section class="hero">
+      <p class="title"> <span>What are you working on? </span>  Dribbble is where designers get inspired and hired.</p>
+      <button class="btn">Continue →</button>
+
+    </section>
+
+    <section class="bottom-hero-info">
+      <p>Looking to hire a designer? <a href="#">Learn more</a></p>
+    </section>
+
+    <section class="sub-menu">
+      <ul class="mid-nav">
+        <li ><a class="middle-link">Popular<svg class="arrow-down" viewBox="0 0 852 491" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18.7383 18.7383C30.7401 6.74019 47.0158 0 63.9863 0C80.9568 0 97.2326 6.74019 109.234 18.7383L426.034 335.538L742.834 18.7383C754.905 7.08023 771.071 0.629358 787.852 0.775177C804.633 0.920996 820.685 7.65182 832.551 19.5179C844.417 31.3841 851.148 47.4361 851.293 64.2166C851.439 80.9972 844.988 97.1638 833.33 109.234L471.282 471.282C459.281 483.28 443.005 490.021 426.034 490.021C409.064 490.021 392.788 483.28 380.786 471.282L18.7383 109.234C6.74019 97.2325 0 80.9568 0 63.9863C0 47.0158 6.74019 30.7401 18.7383 18.7383V18.7383Z" fill="#333"/>
+          </svg>
+        </a>
+        <ul class="submenu">
+          <li><a href="#">Recent</a></li>
+          <li><a href="#">Most Viewed</a></li>
+          <li><a href="#">Most Commented</a></li>
+        </ul>
+          </li>
+        <li ><a class="middle-link">Now<svg class="arrow-down" viewBox="0 0 852 491" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18.7383 18.7383C30.7401 6.74019 47.0158 0 63.9863 0C80.9568 0 97.2326 6.74019 109.234 18.7383L426.034 335.538L742.834 18.7383C754.905 7.08023 771.071 0.629358 787.852 0.775177C804.633 0.920996 820.685 7.65182 832.551 19.5179C844.417 31.3841 851.148 47.4361 851.293 64.2166C851.439 80.9972 844.988 97.1638 833.33 109.234L471.282 471.282C459.281 483.28 443.005 490.021 426.034 490.021C409.064 490.021 392.788 483.28 380.786 471.282L18.7383 109.234C6.74019 97.2325 0 80.9568 0 63.9863C0 47.0158 6.74019 30.7401 18.7383 18.7383V18.7383Z" fill="#333"/>
+          </svg>
+        </a>
+        <ul class="submenu">
+          <li><a href="#">This Past Week</a></li>
+          <li><a href="#">This Past Month</a></li>
+          <li><a href="#">This Past Year</a></li>
+          <li><a href="#">All Time</a></li>
+        </ul></li>
+
+      </ul>
+    </section>
+
+    <div class="general">
+    <section class="main-content">
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img01.jpg" alt="First image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>5,513</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>9</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>465</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile01.png" alt="Profile 01">
+        <p>Norde</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img02.jpg" alt="Second image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>5,389</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>4</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>336</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile02.png" alt="Profile 02">
+        <p>ueno.</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img03.png" alt="Third image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>2,112</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>4</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>268</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile03.png" alt="Profile 03">
+        <p>Tim Boelaars</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img04.png" alt="Fourth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>1,863</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>7</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>246</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile04.png" alt="Profile 04">
+        <p>Fireart Studio</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img05.jpg" alt="Fifth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>3,010</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>4</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>248</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile05.png" alt="Profile 05">
+        <p>UI8</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img06.jpg" alt="Sixth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>3,592</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>5</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>215</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile06.png" alt="Profile 06">
+        <p>Cuberto</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img07.png" alt="Seventh image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>2,937</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>8</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>231</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile07.png" alt="Profile 07">
+        <p>Flair Digital</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img08.png" alt="Eighth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>3,588</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>8</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>203</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile08.png" alt="Profile 08">
+        <p>Ramotion</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img09.png" alt="Ninth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>2,381</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>7</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>185</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile09.png" alt="Profile 09">
+        <p>Unfold</p>
+       </div>
+      </div>
+
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img10.jpg" alt="Tenth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>3,049</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>7</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>187</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile10.png" alt="Profile 10">
+        <p>tubik</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img11.jpg" alt="Eleventh image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>1,070</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>4</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>164</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile11.jpg" alt="Profile 11">
+        <p>Steve Wolf</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img12.png" alt="Twelfth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>1,417</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>4</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>167</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile09.png" alt="Profile 11">
+        <p>Unfold</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img13.jpg" alt="Thirteenth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>1,769</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>0</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>163</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile12.jpg" alt="Profile 12">
+        <p>MUTI</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img14.jpg" alt="Fourteenth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>962</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>8</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>165</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile13.jpg" alt="Profile 14">
+        <p>Nick Kumbari</p>
+       </div>
+      </div>
+
+      
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img15.jpg" alt="Fifteenth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>2,144</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>6</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>156</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile01.png" alt="Profile 15">
+        <p>Norde</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img16.jpg" alt="Sixteenth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>1,510</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>1</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>159</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile14.jpg" alt="Profile 16">
+        <p>Erik Weikert</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img17.jpg" alt="Seventeenth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>585</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>4</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>141</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile15.jpg" alt="Profile 17">
+        <p>Joshua Noom</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img18.jpg" alt="Eighteenth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>2,155</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>3</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>158</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile16.png" alt="Profile 18">
+        <p>Mail.Ru</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img19.jpg" alt="Nineteenth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>991</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>5</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>144</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile17.png" alt="Profile 19">
+        <p>Doublenaut</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img20.jpg" alt="Twentieth image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>2,536</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>9</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>161</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile19.png" alt="Profile 20">
+        <p>UIGREAT</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img21.jpg" alt="Twenty-first image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>1,524</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>2</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>141</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile18.jpg" alt="Profile 21">
+        <p>Zhenya Rynzhuk</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img22.jpg" alt="Twenty-second image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>985</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>3</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>133</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile20.png" alt="Profile 22">
+        <p>Folio Illustration Agency</p>
+       </div>
+      </div>
+
+      <div class="card">
+        <div class="white-container">
+          <img src="/assets/img23.jpg" alt="Twenty-third image">
+          <div class="desc-container">
+            <div class="views">
+              <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14_84)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14_84">
+                <rect width="22" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <span>1,704</span>                
+            </div>
+            <div class="comments">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.8509 2.51603C13.1912 1.18807 11.1255 0.470913 9.00001 0.484755C4.1295 0.484755 0.181366 4.09724 0.181366 8.55346C0.181366 8.57515 0.181366 8.59739 0.181909 8.61908C0.181366 8.62938 0.181366 8.63914 0.181366 8.64944C0.181948 9.36432 0.294098 10.0747 0.513767 10.755C0.518105 10.7696 0.522988 10.7848 0.527866 10.8C0.886143 11.9182 1.49037 12.9419 2.29615 13.796C2.43261 14.3981 2.41485 15.025 2.24451 15.6185C2.07417 16.212 1.75677 16.7528 1.32172 17.191C1.29516 17.2175 1.27705 17.2513 1.26969 17.2882C1.26234 17.325 1.26606 17.3631 1.2804 17.3979C1.29473 17.4326 1.31903 17.4622 1.35023 17.4831C1.38142 17.504 1.41811 17.5152 1.45566 17.5153C2.90955 17.5096 4.30562 16.9452 5.35499 15.9389L5.38102 15.914C6.52932 16.3849 7.75892 16.6257 9.00001 16.6227C11.6863 16.6227 14.0918 15.5236 15.7093 13.79C17.0548 12.3775 17.8094 10.5042 17.8187 8.55346C17.8187 6.15129 16.6712 3.99421 14.8509 2.51603Z" fill="#C0C0C0"/>
+                </svg>
+              <span>7</span>                
+            </div>
+            <div class="likes">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_12_35)">
+                <path d="M16.9504 3.14193C14.2718 -0.335658 9.00034 1.71634 9.00034 5.24793C9.00034 1.71634 3.72853 -0.335826 1.04959 3.14193C-1.71917 6.73722 1.0098 13.0353 9.00017 16.6531C16.9902 13.0353 19.7191 6.73722 16.9504 3.14193Z" fill="#C0C0C0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_12_35">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <span>136</span>                
+            </div>
+          </div>
+        </div>
+       <div class="profile">
+        <img src="/assets/profile21.jpg" alt="Profile 23">
+        <p>Cadabra Studio</p>
+       </div>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <div class="grid-footer">
+      <div class="col1">
+        <a href="#" class="nav-branding footer-brand">dribbbly</a>
+        <p class="footer-title">Show and tell for designers</p>
+        <p class="text">What are you working on? Dribbble is a community of designers sharing screenshots of their work, process, and projects.</p>
+      <div class="social-media">
+        <img src="/assets/dribbble-icon.svg" alt="Dribbly icon" class="icon">
+        <img src="/assets/twitter-icon.svg" alt="Twitter icon" class="icon">
+        <img src="/assets/facebook-icon.svg" alt="Facebook icon" class="icon">
+        <img src="/assets/instagram-icon.svg" alt="Instagram icon" class="icon">
+      </div>
+     
+      </div>
+
+      <div class="col2">
+        <p class="footer-title dribbbly">Dribbbly</p>
+        <ul class="footer-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Guidelines</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Brand</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">Integrations</a></li>
+          <li><a href="#">iOS App</a></li>
+        </ul>
+      </div>
+
+
+      
+      <div class="col3">
+        <p class="footer-title dribbbly">Hiring at Dribbbly</p>
+        <ul class="footer-secondnav">
+          <li><a href="#">Post a job</a></li>
+          <li><a href="#">Search designers</a></li>
+          <li><a href="#">Add your team</a></li>
+          <li><a href="#">Crew: Hire freelancers</a></li>
+        </ul>
+      </div>
+      <div class="col4">
+        <p class="footer-title dribbbly">Jobs for Designers</p>
+        <div class="jobs">
+          <img src="/assets/canva-icon.svg" alt="Canva icon" class="icon">
+          <div class="job">
+            <p class="job-title">Canva</p>
+            <p class="job-desc">Product Designer</p>
+          </div>
+        </div>
+        <div class="jobs">
+          <img src="/assets/memriseicon.png" alt="Memrise icon" class="icon">
+          <div class="job">
+            <p class="job-title">Memrise</p>
+            <p class="job-desc">Growth Designer</p>
+          </div>
+        </div>
+        <div class="jobs">
+          <img src="/assets/opendoor-icon.svg" alt="Opendoor icon" class="icon">
+          <div class="job">
+            <p class="job-title">Opendoor</p>
+            <p class="job-desc">Sr. Product Designer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col5">
+        <img src="/assets/dribbble-ball-icon.svg" alt="Dribble ball icon" class="icon-ball">
+        <div class="right-footer">
+          <p class="numbers-dribbbly">1,095,952,329,146</p>
+          <p class="pixel-text">pixels dribbbled</p>
+        </div>
+      </div>
+    </div>
+    <p class="small-text">© 2018 Dribbbly. All rights reserved.</p>
+  </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
